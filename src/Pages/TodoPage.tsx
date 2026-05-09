@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ITodo } from '../Interfaces/Todo';
+import type { ITodo } from '../Interfaces/Todo';
 import TodoItem from '../Components/TodoItem';
 
 const TodoPage: React.FC = () => {
